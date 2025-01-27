@@ -4,6 +4,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .navbar > h3{
     color: rgb(14, 14, 14);
@@ -602,4 +603,201 @@ font-size: 18px;
 font-weight: 600;
 margin-top: 32px;
 margin-left: 20px;
+}
+
+/* Donate_Today_title */
+
+
+.Donate_Today_title{
+    margin-top: 80px;
+}
+
+.Donate_Today_title > h3{
+    color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.Donate_Today_title > p{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+display: flex;
+justify-content: center;
+line-height: 1.5;
+text-align: center;
+}
+
+.donatetakacards{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    height: 128px;
+    margin-top: 32px;
+}
+
+/* taka card 1 */
+
+.Donate_Today_card1{
+    width: 240px;
+height: 128px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgba(237, 235, 235, 0.252);
+}
+
+.Donate_Today_card1 > h4{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+}
+
+.Donate_Today_card2{
+    width: 240px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 24px;
+background: rgb(198, 228, 214);
+}
+
+.Donate_Today_card2 > h4{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+}
+
+.other_amount{
+    width: 1032px;
+height: 64px;
+background: rgba(237, 235, 235, 0.252);
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+margin-top: 32px;
+margin-left: 124px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.other_amount > p{
+    color: rgba(14, 14, 14, 0.3);
+font-size: 20px;
+font-weight: 400;
+
+}
+
+.donebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.done_now_btn{
+    width: 151px;
+height: 56px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+margin-top: 32px;
+}
+
+/* Subscribe Newsletter section started */
+
+.Subscribe_Newsletter_container{
+    height: 395px;
+    border-radius: 24px;
+background: rgb(198, 228, 214);
+margin-top: 80px;
+padding: 80px 100px;
+}
+
+.Subscribe_Newsletter > h4{
+    color: rgb(14, 14, 14);
+display: flex;
+justify-content: center;
+font-size: 40px;
+font-weight: 700;
+}
+
+.Subscribe_Newsletter > p{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+display: flex;
+justify-content: center;
+}
+
+.input{
+    gap: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 25px;
+}
+
+.input > input{
+    width: 600px;
+height: 55px;
+border: none;
+    border-radius: 8px 0px 0px 8px;
+background: rgb(255, 255, 255);
+}
+
+.input > button{
+    width: 150px;
+height: 56px;
+border-radius: 0px 8px 8px 0px;
+background: rgb(0, 106, 80);
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+border: none;
+}
+
+.footerimgs{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+}
+
+footer{
+    padding: 50px 160px;
+    width: auto;
+height: 202px;
+margin-top: 80px;
+background-color: rgba(234, 229, 229, 0.334);
+}
+
+.footerimgs > img{
+    width: 24px;
+height: 24px;
+
+}
+
+footer > h3{
+    color: rgb(14, 14, 14);
+font-size: 32px;
+font-weight: 700;
+display: flex;
+justify-content: center;
 }
