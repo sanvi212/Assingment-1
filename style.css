@@ -1,6 +1,5 @@
 *{
     padding: 0px 20px;
-    background-color: rgba(128, 128, 128, 0.015);
 }
 .navbar{
     display: flex;
@@ -24,8 +23,6 @@
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    font-family: Fira Sans;
-    margin-top: 30px;
 }
 
 /* main section started */
@@ -40,6 +37,7 @@
     justify-content: start;
     align-items: center;
     border-radius: 24px;
+    margin-left: 30px;
     
 }
 
@@ -382,9 +380,6 @@ font-weight: 400;
     position: static;
 width: 64px;
 height: 64px;
-/* Inside Auto Layout */
-flex: none;
-order: undefined;
 flex-grow: 0;
 margin: 12px 0px;
 }
@@ -420,13 +415,14 @@ height: 409px;
     color: rgb(14, 14, 14);
 font-size: 40px;
 font-weight: 700;
+
 }
 
 
 .allquestion{
     padding: 32px;
     width: 1280px;
-height: 409px;
+height: 370px;
 border-radius: 16px;
 background: rgb(255, 255, 255);
 }
@@ -486,4 +482,124 @@ font-size: 16px;
 font-weight: 800;
 width: 152px;
 height: 44px;
+}
+
+/* Select Your Opinion section ended */
+
+.Recent_News_Section{
+    margin-top: 100px;
+}
+
+.Recent_News_title_h3{
+    color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+}
+
+.Recent_News_title_p{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+}
+
+
+/* Bangladesh_Launches New_Satellite1 */
+
+.Bangladesh_Launches_New_Satellite1{
+    display: flex;
+    gap: 32px;
+    height: 402px;
+    padding: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-containe{
+    width: 408px;
+height: 306px;
+border-radius: 30px;
+}
+
+.Bangladesh_Launches_New_Satellite1h3{
+    color: rgba(14, 14, 14, 0.8);
+font-size: 32px;
+font-weight: 700;
+}
+
+.Bangladesh_Launches_New_Satellite1_img2{
+    width: 134px;
+height: 40px;
+}
+
+.time_and_date{
+    display: flex;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+}
+
+.Bangladesh_Launches_New_Satellite1_p{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+}
+
+
+/* satellite 2 */
+
+.Bangladesh_Launches_New_Satellite1{
+    display: flex;
+    gap: 32px;
+    height: 402px;
+    padding: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-containe{
+    width: 408px;
+height: 306px;
+border-radius: 30px;
+}
+
+.Bangladesh_Launches_New_Satellite1h3{
+    color: rgba(14, 14, 14, 0.8);
+font-size: 32px;
+font-weight: 700;
+}
+
+.Bangladesh_Launches_New_Satellite1_img2{
+    width: 134px;
+height: 40px;
+}
+
+.time_and_date{
+    display: flex;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+}
+
+.Bangladesh_Launches_New_Satellite1_p{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+}
+
+.readmorebtn{
+    width: 139px;
+height: 48px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+border: none;
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+margin-top: 32px;
+margin-left: 20px;
 }
