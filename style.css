@@ -1,5 +1,6 @@
 *{
     padding: 0px 20px;
+    background-color: rgba(128, 128, 128, 0.015);
 }
 .navbar{
     display: flex;
@@ -39,22 +40,29 @@
     justify-content: start;
     align-items: center;
     border-radius: 24px;
+    
 }
+
 
 .hero_section > img{
     width: 474px;
     height: 329px;
+    
 }
 
 .bangladesh_two_point_zero{
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
     font-weight: 500px;
+    margin-top: 10px;
+    
+    
 }
 .idea{
     font-weight: 700;
     font-size: 56px;
     color: (14, 14, 14);
+    
 }
 
 .hero_btn{
@@ -69,4 +77,413 @@
     color: white;
     border-radius: 8px;
     border: none;
+    margin-left: 25px;
+    
+}
+
+/* hero section ended */
+
+.pillars_of_bd{
+    margin-top: 80px;
+}
+
+.pillars_of_bd_title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    }
+
+.cards{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+/* card1 */
+
+.card1{
+    display: flex;
+    width: 500px;
+    height: 250px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    flex-direction: column;
+    justify-content: flex-star;
+    position: static;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 24px;
+}
+
+.card1 > h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.card1 > p{
+    font-size: 16px;
+font-weight: 400;
+color: rgba(14, 14, 14, 0.7);
+}
+
+/* card 2 */
+
+.card2{
+    display: flex;
+    width: 500px;
+    height: 250px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    flex-direction: column;
+    justify-content: flex-star;
+    position: static;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 24px;
+}
+
+.card2 > h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.card2 > p{
+    font-size: 16px;
+font-weight: 400;
+color: rgba(14, 14, 14, 0.7);
+}
+
+/* card 3 */
+
+.card3{
+    display: flex;
+    width: 500px;
+    height: 250px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    flex-direction: column;
+    justify-content: flex-star;
+    position: static;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 24px;
+}
+
+.card3 > h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.card3 > p{
+    font-size: 16px;
+font-weight: 400;
+color: rgba(14, 14, 14, 0.7);
+}
+
+/* card 4 */
+
+.card4{
+    display: flex;
+    width: 500px;
+    height: 250px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    flex-direction: column;
+    justify-content: flex-star;
+    position: static;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 24px;
+}
+
+.card4 > h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.card4 > p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+
+/* Pillars of "Bangladesh 2.0" section ended */
+
+.the_vision_of_future_title{
+    margin-top: 80px;
+}
+
+.the_vision_of_future_title > p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.the_vision_of_future_title > h3{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.bluecard_container{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+/* card 1 */
+
+.bluecard1{
+    width: 410.67px;
+height: 325px;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+justify-items: start;
+align-content: center;
+}
+
+.bluecard1 h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bluecard1 > p{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+}
+
+.bluecard1 > button {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-left: 20px;
+    margin-top: 24px;
+}
+
+/* card 2 */
+
+.bluecard2{
+    width: 410.67px;
+height: 325px;
+border-radius: 16px;
+background: rgba(198, 228, 214);
+justify-items: start;
+align-content: center;
+}
+
+.bluecard2 h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bluecard2 > p{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+}
+
+.bluecard2 > button {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-left: 20px;
+    margin-top: 24px;
+}
+
+/* card 3 */
+
+.bluecard3{
+    width: 410.67px;
+height: 325px;
+border-radius: 16px;
+background: rgba(247, 235, 207);
+justify-items: start;
+align-content: center;
+}
+
+.bluecard3 h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bluecard3 > p{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+}
+
+.bluecard3 > button {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-left: 20px;
+    margin-top: 24px;
+}
+
+/* dr yunus */
+
+.dr_younus{
+    margin-top: 32px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    height: 256px;
+    display:inline-block;
+    justify-items: start;
+    align-content: center;
+}
+
+.quote-bg{
+    position: static;
+width: 64px;
+height: 64px;
+/* Inside Auto Layout */
+flex: none;
+order: undefined;
+flex-grow: 0;
+margin: 12px 0px;
+}
+
+.aboutyunus{
+    color: rgba(14, 14, 14, 0.8);
+font-size: 16px;
+font-weight: 400;
+position: static;
+}
+
+.nameofyunus{
+    color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 600;
+}
+
+.younus{
+    color: rgba(14, 14, 14, 0.6);
+font-size: 16px;
+font-weight: 400;
+}
+
+/* Select Your Opinion section started */
+
+.Your_Opinion_Matters{
+    margin-top: 80px;
+    width: 1280px;
+height: 409px;
+}
+
+.Your_Opinion_Matters_title{
+    color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+}
+
+
+.allquestion{
+    padding: 32px;
+    width: 1280px;
+height: 409px;
+border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+
+.Questions{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(198, 228, 214);
+display: flex;
+justify-content: space-between;
+}
+
+#Questions{
+    color: rgb(14, 14, 14);
+font-size: 20px;
+font-weight: 600;
+}
+
+#Select{
+    color: rgb(14, 14, 14);
+font-size: 20px;
+font-weight: 600;
+}
+
+.Questions1{
+    padding: 0;
+    height: 92px;;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgba(255, 255, 255, 0.1);
+display: flex;
+justify-content: space-between;
+}
+
+.Questions1p{
+    color: rgb(14, 14, 14);
+font-size: 16px;
+font-weight: 600;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.Questions1btn{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Questions1button{
+border: 1px solid rgb(14, 14, 14);
+border-radius: 4px;
+background: rgb(198, 228, 214);
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 800;
+width: 152px;
+height: 44px;
 }
